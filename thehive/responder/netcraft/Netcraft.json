@@ -1,0 +1,34 @@
+{
+    "name": "Netcraft",
+    "version": "1.0",
+    "author": "Nickel",
+    "url": "https://github.com/TheHive-Project/Cortex-Analyzers",
+    "license": "AGPL-V3",
+    "description": "Report phishing URL to Netcraft API.",
+    "dataTypeList": ["thehive:case_artifact"],
+    "command": "Netcraft/Netcraft.py",
+    "baseConfig": "Netcraft",
+    "configurationItems": [
+      {
+        "name": "account_username",
+        "description": "Service account username",
+        "type": "string",
+        "multi": false,
+        "required": true
+      },
+      {
+        "name": "account_password",
+        "description": "Service account password",
+        "type": "string",
+        "multi": false,
+        "required": true
+      },
+      {
+        "name": "account_region",
+        "description": "Service account region",
+        "type": "string",
+        "multi": false,
+        "required": true
+      }
+    ]
+}
