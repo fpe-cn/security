@@ -50,4 +50,4 @@ A new tag is added to the artifact (Netcraft:reported)
 
 ### Example
 
-![Examples](http://.com "Examples")
+![Examples](https://raw.githubusercontent.com/fpe-cn/security/master/thehive/responder/netcraft/example.png "Examples")
